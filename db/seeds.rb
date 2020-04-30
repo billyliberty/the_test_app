@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Create a main sample user.
-
 require 'faker'
 
-# User.create!(name: "Example User", email: "example@example.com", password: "foobar", password_confirmation: "foobar")
+# Create a main sample user.
+
+User.create!(name: "Example User", email: "example@example.com", password: "foobar", password_confirmation: "foobar", admin: true)
 
 # Generate additional users.
 
