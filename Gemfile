@@ -10,6 +10,13 @@ gem 'bootstrap-sass', '3.4.1'
 
 gem 'bcrypt'
 
+# Seed fake profiles
+gem 'faker'
+
+# Paginate user index
+gem 'will_paginate', '3.1.8'
+gem 'bootstrap-will_paginate'
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
